@@ -221,8 +221,8 @@ int main(int argc, char *argv[])
 	printf("System Ready\n");
 
 	/* Create Application tasks */
-	os_task_create(uart1_echo_task, NULL, FALSE);
-	os_task_create(uart2_echo_task, NULL, FALSE);
+	os_task_create(uart1_echo_task, "uart1test", NULL, FALSE);
+	os_task_create(uart2_echo_task, "uart2test", NULL, FALSE);
 
 	printf("System Initialization finished\n");
 

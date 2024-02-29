@@ -1,4 +1,4 @@
-# Logicrom SDK - UART example
+# Logicrom OpenCPU SDK - UART example
 
 ## How to build
 
